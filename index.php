@@ -11,7 +11,7 @@
 <body>
   <div class="container">
 
-    <h1 class="mb-5 mt-3 text-center">Dynamic return data From Mysql with Ajax & PHP</h1>
+    <h1 class="mb-5 mt-3 text-center">Dynamic return data from Mysql with Ajax & PHP</h1>
     <p class="mb-5 text-center lead">For Cities & Zip codes of Croatia</p>
 
 
@@ -90,6 +90,7 @@ function returnCityZIP(){
           }   
 
         }
+        
         console.log(this.responseText);
       }
 
